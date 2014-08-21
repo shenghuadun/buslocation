@@ -53,6 +53,11 @@ public class BusLine
 	 * 票价信息
 	 */
 	private String price;
+	
+	/**
+	 * 运营公司
+	 */
+	private String groupName;
 
 	/*********************************************************************
 	 * 
@@ -160,6 +165,16 @@ public class BusLine
 		this.price = price;
 	}
 
+	public String getGroupName()
+	{
+		return groupName;
+	}
+
+	public void setGroupName(String groupName)
+	{
+		this.groupName = groupName;
+	}
+
 	/**
 	 * 线路id
 	 */
@@ -209,6 +224,11 @@ public class BusLine
 	 * 票价信息
 	 */
 	public static final String PRICE = "price";
+	
+	/**
+	 * 运营公司
+	 */
+	public static final String GROUP_NAME = "groupName";
 
 	@Override
 	public String toString()
