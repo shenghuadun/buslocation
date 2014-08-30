@@ -1,8 +1,15 @@
 package com.gigi.buslocation.bean;
 
+import java.io.Serializable;
 
-public class BusLine
+
+public class BusLine implements Serializable
 {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -859730254613323951L;
 
 	/**
 	 * 线路id

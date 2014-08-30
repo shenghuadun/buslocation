@@ -1,5 +1,7 @@
 package com.gigi.buslocation.bean;
 
+import java.io.Serializable;
+
 import org.htmlparser.Node;
 import org.htmlparser.tags.Div;
 import org.htmlparser.tags.Span;
@@ -7,8 +9,13 @@ import org.htmlparser.util.NodeList;
 
 import com.gigi.buslocation.util.NodeFilterFactory;
 
-public class BusStation
+public class BusStation implements Serializable
 {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -439367454541253346L;
+
 	/**
 	 * 站点名称
 	 */
